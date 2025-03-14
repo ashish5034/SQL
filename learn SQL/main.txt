@@ -1,1 +1,29 @@
+SQL is not just used by software developers, but it is also widely used by Quality Analyst, Data Analyst, Business Analyst, Data Engineers, Data Scientist and many more etc.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- What is SQL?
+
+SQL stands for Structured Query Language. Also referred to as “SEQUEL”
+
+SQL is a programming language which is used to interact with relational database or RDBMS.
+
+Using SQL commands, you can read data from a relational database or write data into a relational database. You can also create, modify and delete database. SQL can also be used to analyze and protect data.
+
+Almost all of the RDBMS available today such as Oracle, MySQL, Microsoft SQL Server, PostgreSQL, IBM DB2, SQLite, MariaDB, Teradata, Hive etc uses SQL to manage data.
+
+Different relational database have created their own version of SQL, however majority of the functionally and syntax are common across all databases. 
+
+So no matter which RDBMS you use, the SQL you learn in this blog will be applicable to all.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Note:
+SQL is primarily used in RDBMS (or Relational Database Management System). 
+
+In RDBMS, data is stored in multiple tables. 
+
+Each table can have a set of rows and columns. Different tables will be related to each other through certain columns forming relations.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
