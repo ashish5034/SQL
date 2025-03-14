@@ -1,1 +1,19 @@
+ALTER
 
+Alter is used to modify the structure of an existing table. Alter can be used to rename a table or rename a column. Alter can also be used to add new column or change the data type of an existing column. Using Alter we can also add new constraints or remove a constraint from a table.
+
+Syntax to alter table is:
+
+ALTER TABLE STUDENTS DROP COLUMN GRADE; -- Drop a column.
+
+ALTER TABLE STUDENTS ADD COLUMN REGISTER_NO VARCHAR(100); -- Add new column.
+
+ALTER TABLE STUDENTS ALTER COLUMN IS_ACTIVE TYPE VARCHAR(1); -- Change data type of a column.
+
+ALTER TABLE STUDENTS RENAME COLUMN IS_ACTIVE TO ACTIVE; -- Rename a column.
+
+ALTER TABLE STUDENTS ADD CONSTRAINT UNQ_STD UNIQUE (REGISTER_NO); -- Add new constraint
+
+ALTER TABLE STUDENTS DROP CONSTRAINT UNQ_STD; -- Drop a constraint.
+
+ALTER TABLE STUDENTS RENAME TO STUDENTS123; -- Rename a table.
