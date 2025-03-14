@@ -1,0 +1,41 @@
+Constraints refers to limitation or restriction applied to a column in a table. 
+Constraints are very important to maintain data integrity among tables. 
+If you want to make sure that wrong data is not inserted into your table then these kind of sanity checks can be applied by using CONSTRAINTS. 
+Let’s look some of the most widely used constraints in RDBMS:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CHECK: 
+CHECK constraint allows you to control the values that can be inserted into a column. 
+Let’s say if you have a column “AGE” and you want to make sure that only positive values are being is inserted into this column then you can use a 
+CHECK constraint on this column to apply this rule. So if anyone tries to insert a negative value into this column then RDBMS will throw an error.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+NOT NULL: 
+By applying NOT NULL constraint on a column, you make sure that this column will never have NULL or empty values.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+UNIQUE: 
+Unique constraints are used to make sure that values inserted into a column across all the rows have unique or distinct values. 
+It can help you to eliminate any duplicate data in a column. Remember NULL values are allowed in a UNIQUE constraint column. 
+And two NULL values are not same hence multiple rows with NULL values are allowed.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PRIMARY KEY: 
+Primary key constraints is basically a combination of UNIQUE + NOT NULL constraint. 
+It will ensure that all the values in the column are unique and there are no NULL values. 
+A table can only have one primary key constraint. 
+Primary key constraint can either be applied to a single column or to a combination of multiple columns in the table. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FOREIGN KEY: 
+FOREIGN KEY constraint can be used to form relationship between tables. 
+It basically helps to create a parent child relationship between 2 tables. 
+Such that the child table references a column value from the parent table. 
+So that only the values present in parent table can be inserted into the child table.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
