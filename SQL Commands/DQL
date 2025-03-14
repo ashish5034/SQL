@@ -1,0 +1,46 @@
+DQL (Data Query Language): 
+The SELECT statement in SQL falls under the category of DQL. Using SELECT, we can retrieve data from one or more tables. SELECT can also be used to build reports, analyze data and much more.
+
+SELECT
+
+The basic syntax to write SELECT query is:
+
+SELECT   column_name
+
+FROM     table_name
+
+WHERE   join / filter conditions;
+
+SELECT clause - All the columns which needs to be displayed when the query is executed.
+
+FROM clause - All the tables which are required to execute this query.
+
+WHERE clause - All the join conditions or filter conditions to fetch the desired data.
+
+There are two ways to write SELECT queries:
+
+Using JOIN keyword between tables in FROM clause.
+
+SELECT  T1.COLUMN1 AS C1, T1.COLUMN2 C2, T2.COLUMN3 AS C3
+
+FROM  TABLE1    T1
+
+JOIN  TABLE2 AS T2 ON T1.C1 = T2.C1 AND T1.C2 = T2.C2;
+
+Using comma (,) between tables in FROM clause.
+
+SELECT  T1.COLUMN1 AS C1, T1.COLUMN2 AS C2, T2.COLUMN3 C3 
+
+FROM  TABLE1 AS T1, TABLE2 AS T2
+
+WHERE  T1.C1 = T2.C1
+
+AND  T1.C2 = T2.C2;
+
+Both these method of writing queries are correct and you can follow whichever you are comfortable with. 
+However, I personally prefer the first method since it makes the query more cleaner and easier to understand and debug. 
+Also very useful when writing outer join queries.
+
+In the above query T1 following the table name TABLE1 and T2 following table name TABLE2 are aliases to the name (kind of nick name given to the table). 
+This aliases can be used through out the query to access the actual table. Similarly C1, C2, C3 are aliases given to column names. 
+You can use the keyword “AS” while stating the aliases however it’s not mandatory
