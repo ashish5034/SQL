@@ -1,1 +1,7 @@
+DROP
 
+Drop, as the name suggest, is used to remove a database object such as table, view, functions etc from the database.
+
+Syntax to drop table is:
+
+DROP TABLE STUDENTS;
