@@ -1,0 +1,4 @@
+DDL (Data Definition Language): 
+Used to define the structure of database objects such as tables, views, 
+functions etc. 
+Using DDL commands, we can create, modify and drop any database objects.
