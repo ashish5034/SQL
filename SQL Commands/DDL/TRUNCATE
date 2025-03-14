@@ -1,1 +1,9 @@
+TRUNCATE: 
+
+Truncate is used to remove all the data from a table at once.
+
+Syntax to truncate table is:
+
+TRUNCATE TABLE STUDENTS; 
+
 
