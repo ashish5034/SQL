@@ -1,5 +1,5 @@
 -- Script to create the Product table and load data into it.
-
+-- first_value(col_name), last_value(col_name), nth_value(col_name, Number),window w, ntile(numbr), cume_dist() , percent_rank()
 DROP TABLE product;
 CREATE TABLE product
 ( 
