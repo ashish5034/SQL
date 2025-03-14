@@ -1,0 +1,9 @@
+DELETE
+
+Delete command will remove the data from a table. If you want to delete all records from table then mention the delete statement without the WHERE condition. Else mention WHERE condition to specify the exact records to be deleted.
+
+The syntax is:
+
+DELETE FROM STUDENTS WHERE ID = 'STD10251'; -- Removes only one record.
+
+DELETE FROM STUDENTS; -- Removes all data from table.
