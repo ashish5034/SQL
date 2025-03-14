@@ -1,0 +1,33 @@
+DATA TYPE
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tables in RDBMS consist of rows and columns. Each column has a data type associated to it. 
+Data type is like a data rule applicable to that particular column. 
+Meaning that only the data or values satisfying this data rule can be inserted into this column. 
+There are several types of data types. However, in this blog we will go through the 5 most basic and most commonly used data type across all of RDBMS, 
+they are VARCHAR, INT, DATE, FLOAT and BOOLEAN:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+VARCHAR: Stands for Variable Character. 
+If a column is associated to a VARCHAR data type then the values that can be stored in this column are alphabets, numbers, alphanumeric values as well as 
+special characters.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INT: Stands for Integer. As the name suggests, only integer/whole numbers are allowed under INT column. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+DATE: DATE data type is used to store DATE values which are in any date format.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+FLOAT: Stands for Floating point numbers. It can hold decimal numbers only. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+BOOLEAN:  It can hold only 2 values either True or False. It’s kind of a binary representation of 0 and 1 where True = 1 and False = 0
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
