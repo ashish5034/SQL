@@ -1,0 +1,10 @@
+DCL (Data Control Language): 
+Using DCL commands, database objects from a one database or schema can be accessed from another database or schema. DCL includes following commands:
+
+GRANT
+
+Provide access for database objects to be accessed from different database or schema.
+
+REVOKE
+
+Remove the access for database objects to be accessed from different database or schema.
