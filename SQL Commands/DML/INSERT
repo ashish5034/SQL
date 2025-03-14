@@ -1,0 +1,21 @@
+INSERT
+
+Insert command can be used to load data into the table. 
+
+The syntax is: (considering the original table structure we created above in CREATE command)
+
+INSERT INTO STUDENTS (ID, FIRST_NAME, LAST_NAME, GENDER, AGE, DOB, GRADE, IS_ACTIVE)
+
+VALUES ('STD10251','Minnaminnie','Cleft','Female',8,TO_DATE('2012-02-23', 'YYYY-MM-DD'), 3, TRUE); -- Mention the column names.
+
+INSERT INTO STUDENTS
+
+VALUES ('STD10252','Effie','Emlyn','Female',8,TO_DATE('2012-03-28', 'YYYY-MM-DD'), 3, TRUE); -- Do not mention column names.
+
+INSERT INTO STUDENTS VALUES
+
+        ('STD10253','Kerry','Aysik','Female',8,TO_DATE('2012-01-09', 'YYYY-MM-DD'), 3, TRUE),
+
+        ('STD10254','Jo','Mansfield','Male',8,TO_DATE('2012-03-26', 'YYYY-MM-DD'), 3, TRUE),
+
+        ('STD10255','Elianore','Macon','Female',8,TO_DATE('2012-04-01', 'YYYY-MM-DD'), 3, FALSE); -- Insert multiple records.
