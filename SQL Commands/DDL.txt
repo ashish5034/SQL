@@ -1,1 +1,38 @@
+DDL (Data Definition Language): 
+Used to define the structure of database objects such as tables, views, functions etc. Using DDL commands, we can create, modify and drop any database objects. The commands include:
 
+CREATE
+
+Create a new database object such a tables, views or functions etc.
+
+Syntax to create a new table is:
+
+CREATE TABLE IF NOT EXISTS STUDENTS
+
+(
+
+    ID                         VARCHAR(20) PRIMARY KEY
+
+  , FIRST_NAME       VARCHAR(100) NOT NULL
+
+  , LAST_NAME        VARCHAR(100) NOT NULL
+
+  , GENDER               VARCHAR(10) CHECK (GENDER IN ('M', 'F', 'Male', 'Female'))
+
+  , AGE                      INT
+
+  , DOB                     DATE
+
+  , GRADE                 FLOAT
+
+  , IS_ACTIVE           BOOLEAN
+
+  , CONSTRAINT CH_STUDENTS_AGE CHECK (AGE > 0)
+
+);
+
+Here STUDENTS is the name of the table whereas it has 6 columns namely ID, FIRST_NAME, LAST_NAME, GENDER, AGE and DOB. These columns belong to different data type. There are also few constraints like PRIMARY KEY, NOT NULL, CHECK used in this table. 
+
+IF NOT EXISTS before the table name is an optional clause which can be included while creating table which tells the RDBMS to check if the table already exist. If table exists then RDBMS will skip executing this create statement else the statement will be executed and table will be create.
+
+In order to completely understand how to properly create a table, we need to first understand what is Data Type and what are Constraints:
