@@ -1,0 +1,17 @@
+UPDATE
+
+Update commands is used to modify the data in the table.
+
+The syntax is:
+
+UPDATE  STUDENTS
+
+SET     FIRST_NAME = 'James'
+
+WHERE   ID = 'STD10253'; -- Update single column.
+
+UPDATE  STUDENTS
+
+SET     FIRST_NAME = 'Rohan', GRADE = 4
+
+WHERE   ID = 'STD10251'; -- Update multiple columns at once.
