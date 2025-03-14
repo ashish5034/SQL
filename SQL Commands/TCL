@@ -1,0 +1,15 @@
+TCL (Transaction Control Language):
+TCL commands are basically used to save or undo DML transactions into the database. It includes:
+
+COMMIT
+
+Saves the open transaction to database. Such as Insert, Delete, Update transactions etc.
+
+ROLLBACK
+
+Used to undo a transaction which are not yet committed.
+
+SAVEPOINT
+
+Can be used to create reference points in between a group of transaction which can be then called upon to either commit or rollback the preceding transactions.
+
