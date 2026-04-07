@@ -218,6 +218,6 @@ This project is part of my portfolio, showcasing the SQL skills essential for da
 ### Stay Updated and Join the Community
 
 - **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/ashish-mahamuni-193283218/)
-- **GitHub**: [Join our community to learn and grow together](https://github.com/ashish5034/SQL/edit/main/Retail_sales_project1/)
+- **GitHub**: [Join our community to learn and grow together](https://github.com/ashish5034/SQL/edit/main/Retail_sales_project1)
 
 Thank you !!!
