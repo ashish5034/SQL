@@ -99,11 +99,9 @@ SELECT category,sum(total_sale) AS NET_SALES,COUNT(total_sale) AS TOTAL_SALES FR
 select round(AVG(AGE),2) AS AVERAGE_AGE FROM retail_sales WHERE CATEGORY = 'Beauty';
 
 -- Q.5 Write a SQL query to find all transactions where the total_sale is greater than 1000.
-
 select * FROM retail_sales WHERE total_sale > 1000;
 
 -- Q.6 Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.
-
 SELECT ROW_NUMBER() OVER () AS 'SR.NO',CATEGORY, GENDER, count(1) AS TOTAL_transactions FROM retail_sales group by category, gender ORDER BY 1;
 
 -- Q.7 Write a SQL query to calculate the average sale for each month. Find out best selling month in each year
